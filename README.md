@@ -1,134 +1,83 @@
-<p align="center">
-<br />
-<a href="https://thirdweb.com"><img src="https://github.com/thirdweb-dev/typescript-sdk/blob/main/logo.svg?raw=true" width="200" alt=""/></a>
-<br />
-</p>
-<h1 align="center">thirdweb Contracts</h1>
-<p align="center">
-<a href="https://www.npmjs.com/package/@thirdweb-dev/contracts"><img src="https://img.shields.io/npm/v/@thirdweb-dev/contracts?color=red&logo=npm" alt="npm version"/></a>
-<a href="https://github.com/thirdweb-dev/contracts/actions"><img alt="Build Status" src="https://github.com/thirdweb-dev/contracts/actions/workflows/tests.yml/badge.svg"/></a>
-<a href="https://discord.gg/thirdweb"><img alt="Join our Discord!" src="https://img.shields.io/discord/834227967404146718.svg?color=7289da&label=discord&logo=discord&style=flat"/></a>
+# Contributor Covenant Code of Conduct
 
-</p>
-<p align="center"><strong>Collection of smart contracts deployable via the thirdweb SDK, dashboard and CLI</strong></p>
-<br />
+## Our Pledge
 
-## Installation
+We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.
 
-```shell
-npm i @thirdweb-dev/contracts
-```
+We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
-## Running Tests
+## Our Standards
 
-1. `yarn`: install contracts dependencies
-2. `forge install`: install tests dependencies
-3. `forge test`: run the tests
+Examples of behavior that contributes to a positive environment for our community include:
 
-This repository is a hybrid [hardhat](https://hardhat.org/) and [forge](https://github.com/foundry-rs/foundry/tree/master/forge) project.
+* Demonstrating empathy and kindness toward other people
+* Being respectful of differing opinions, viewpoints, and experiences
+* Giving and gracefully accepting constructive feedback
+* Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
+* Focusing on what is best not just for us as individuals, but for the overall community
 
-First install the relevant dependencies of the project:
+Examples of unacceptable behavior include:
 
-```bash
-yarn
+* The use of sexualized language or imagery, and sexual attention or advances of any kind
+* Trolling, insulting or derogatory comments, and personal or political attacks
+* Public or private harassment
+* Publishing others' private information, such as a physical or email address, without their explicit permission
+* Other conduct which could reasonably be considered inappropriate in a professional setting
 
-forge install
-```
+## Enforcement Responsibilities
 
-To compile contracts, run:
+Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
 
-```bash
-forge build
-```
+Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
 
-Or, if you prefer hardhat, you can run:
+## Scope
 
-```bash
-npx hardhat compile
-```
+This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
 
-To run tests:
+## Enforcement
 
-```bash
-forge test
-```
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at <support@thirdweb.com>. All complaints will be reviewed and investigated promptly and fairly.
 
-To export the ABIs of the contracts in the `/contracts` directory, run:
+All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
-```
-npx hardhat export-abi
-```
+## Enforcement Guidelines
 
-To run any scripts in the `/scripts` directory, run:
+Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:
 
-```
-npx hardhat run scripts/{path to the script}
-```
+### 1. Correction
 
-## Pre-built Contracts
+**Community Impact**: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.
 
-Pre-built contracts are written by the thirdweb team, and cover the most common use cases for smart contracts.
+**Consequence**: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.
 
-Release pages for pre-built contracts:
+### 2. Warning
 
-- [DropERC20](https://thirdweb.com/deployer.thirdweb.eth/DropERC20)
-- [DropERC721](https://thirdweb.com/deployer.thirdweb.eth/DropERC721)
-- [DropERC1155](https://thirdweb.com/deployer.thirdweb.eth/DropERC1155)
-- [SignatureDrop](https://thirdweb.com/deployer.thirdweb.eth/SignatureDrop)
-- [Marketplace](https://thirdweb.com/deployer.thirdweb.eth/Marketplace)
-- [Multiwrap](https://thirdweb.com/deployer.thirdweb.eth/Multiwrap)
-- [TokenERC20](https://thirdweb.com/deployer.thirdweb.eth/TokenERC20)
-- [TokenERC721](https://thirdweb.com/deployer.thirdweb.eth/TokenERC721)
-- [TokenERC1155](https://thirdweb.com/deployer.thirdweb.eth/TokenERC1155)
-- [VoteERC20](https://thirdweb.com/deployer.thirdweb.eth/VoteERC20)
-- [Split](https://thirdweb.com/deployer.thirdweb.eth/Split)
+**Community Impact**: A violation through a single incident or series of actions.
 
-[Learn more about pre-built contracts](https://portal.thirdweb.com/pre-built-contracts)
+**Consequence**: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.
 
-## Extensions
+### 3. Temporary Ban
 
-Extensions are building blocks that help enrich smart contracts with features.
+**Community Impact**: A serious violation of community standards, including sustained inappropriate behavior.
 
-Some blocks come packaged together as Base Contracts, which come with a full set of features out of the box that you can modify and extend. These contracts are available at `contracts/base/`.
+**Consequence**: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.
 
-Other (smaller) blocks are Features, which provide a way for you to pick and choose which individual pieces you want to put into your contract; with full customization of how those features work. These are available at `contracts/extension/`.
+### 4. Permanent Ban
 
-[Learn more about extensions](https://portal.thirdweb.com/extensions)
+**Community Impact**: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior,  harassment of an individual, or aggression toward or disparagement of classes of individuals.
 
-## Deployments
+**Consequence**: A permanent ban from any sort of public interaction within the community.
 
-The thirdweb registry (`TWRegistry`) and factory (`TWFactory`) have been deployed on the following chains:
+## Attribution
 
-- [Ethereum mainnet](https://etherscan.io/)
-- [Rinkeby](https://rinkeby.etherscan.io/)
-- [Goerli](https://goerli.etherscan.io/)
-- [Polygon mainnet](https://polygonscan.com/)
-- [Polygon Mumbai testnet](https://mumbai.polygonscan.com/)
-- [Avalanche mainnet](https://snowtrace.io/)
-- [Avalanche Fuji testnet](https://testnet.snowtrace.io/)
-- [Fantom mainnet](https://ftmscan.com/)
-- [Fantom testnet](https://testnet.ftmscan.com/)
+This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 2.0, available at [https://www.contributor-covenant.org/version/2/0/code_of_conduct.html][v2.0].
 
-`TWRegistry` is deployed to a common address on all mentioned networks. `TWFactory` is deployed to a common address on all mentioned networks except Fantom mainnet.
+Community Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder][Mozilla CoC].
 
-- `TWRegistry`: [0x7c487845f98938Bb955B1D5AD069d9a30e4131fd](https://blockscan.com/address/0x7c487845f98938Bb955B1D5AD069d9a30e4131fd)
+For answers to common questions about this code of conduct, see the FAQ at [https://www.contributor-covenant.org/faq][FAQ]. Translations are available at [https://www.contributor-covenant.org/translations][translations].
 
-- `TWFactory`: [0x5DBC7B840baa9daBcBe9D2492E45D7244B54A2A0](https://blockscan.com/address/0x5DBC7B840baa9daBcBe9D2492E45D7244B54A2A0)
-- `TWFactory` (Fantom mainnet): [0x97EA0Fcc552D5A8Fb5e9101316AAd0D62Ea0876B](https://blockscan.com/address/0x97EA0Fcc552D5A8Fb5e9101316AAd0D62Ea0876B)
-
-
-## Bug reports
-
-Found a security issue with our smart contracts? Send bug reports to security@thirdweb.com and we'll continue communicating with you from there. We're actively developing a bug bounty program; bug report payouts happen on a case by case basis, for now.
-
-## Feedback
-
-If you have any feedback, please reach out to us at support@thirdweb.com.
-
-## Authors
-
-- [thirdweb](https://thirdweb.com)
-
-## License
-
-[Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt)
+[homepage]: https://www.contributor-covenant.org
+[v2.0]: https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
+[Mozilla CoC]: https://github.com/mozilla/diversity
+[FAQ]: https://www.contributor-covenant.org/faq
+[translations]: https://www.contributor-covenant.org/translations
